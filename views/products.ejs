@@ -1,0 +1,13 @@
+
+<table>
+    <th>
+        <td>name</td>
+        <td>price</td>
+    </th>
+    <% products.forEach(products => {%>
+        <tr>
+            <td><%= products.name %></td>
+            <td><%= products.price %></td>
+        </tr>
+    <% }) %>
+</table>
